@@ -30,6 +30,9 @@ main{
     color: rgb(196, 223, 46);
     font-weight: 700;
 }
+.text{
+    color: #fff;
+}
 p{
     font-size: 15px;
     padding-bottom: 8px;
@@ -51,4 +54,22 @@ p{
 }
 ul, li{
     list-style: none;
+}
+.pbottom{
+    color: #fff;
+    padding-bottom: 10px;
+}
+span{
+    font-size: 30px;
+    font-weight: 800;
+}
+button{
+    padding: 15px 10px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: rgb(196, 223, 46);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
 }
