@@ -14,6 +14,7 @@ main{
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    /* flex: 1; */
 }
 .top{
     background-color: #fff;
@@ -41,6 +42,7 @@ p{
 .bottom{
     display: flex;
     width: 100%;
+    /* flex: 1; */
 }
 .bottom .left{
     background-color: rgb(45, 148, 127);
@@ -54,12 +56,18 @@ p{
 }
 ul, li{
     list-style: none;
+    color: rgb(226, 222, 222);
+    padding: 2px 0;
 }
 .pbottom{
     color: #fff;
     padding-bottom: 10px;
 }
-span{
+.pright{
+    padding-bottom: 10px;
+    color: #fff;
+}
+.cash{
     font-size: 30px;
     font-weight: 800;
 }
@@ -71,5 +79,10 @@ button{
     border: none;
     border-radius: 3px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    white-space: nowrap;
+    /* white-space: inherit; */
+}
+span{
 
 }
