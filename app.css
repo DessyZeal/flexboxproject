@@ -42,7 +42,6 @@ p{
 .bottom{
     display: flex;
     width: 100%;
-    /* flex: 1; */
 }
 .bottom .left{
     background-color: rgb(45, 148, 127);
