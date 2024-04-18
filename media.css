@@ -128,9 +128,10 @@ h1 {
     height: 100%;
     width: 65%;
     background-color: #dfa4df;
-    display: flex;
+    display: inline;
     justify-content: center;
     align-items: center;
+    padding-left: 50px;
 }
 .right {
     width: 50%;
@@ -141,5 +142,8 @@ img{
 }
 h2 {
     line-height: 50px;
-    /* padding-bottom: 150px; */
+}
+p {
+    line-height: 22px;
+    letter-spacing: 0.5px;
 }
