@@ -51,7 +51,7 @@ body {
 }
 .land {
     height: 650px;
-    background-color: #a8d2df;
+    background-image: url(./image/pexels-dominika-roseclay-1982485.jpg);
 }
 .logo {
     font-size: 20px;
@@ -105,16 +105,15 @@ h1 {
 }
 .action {
     padding: 15px 20px;
-    background-color: #dfa4c7;
+    /* background-color: #dfa4c7; */
     border: none;
     margin-top: 30px;
     margin-left: 650px;
     border-radius: 5px;
-    color: white;
+    color: #dfa4c7;
 }
 .action:hover {
     padding: 15px 20px;
-    background-color: #a8d2df;
     border:1px solid #dfa4c7;
     
 }
