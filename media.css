@@ -64,7 +64,7 @@ li, a {
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: black;
+    color: #422536;
 }
 li, a:hover{
     color: white;
@@ -89,6 +89,7 @@ h2 {
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 200px;
+    color: #422536;
 }
 .intro h1{
     display: flex;
@@ -101,7 +102,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.2rem;
     margin-top: 20px;
-    color: #dfa4c7;
+    color: #422536;
 }
 .action {
     padding: 15px 20px;
@@ -110,12 +111,35 @@ h1 {
     margin-top: 30px;
     margin-left: 650px;
     border-radius: 5px;
-    color: #dfa4c7;
+    color: #422536;
+    cursor: pointer;
 }
 .action:hover {
     padding: 15px 20px;
-    border:1px solid #dfa4c7;
+    border:1px solid #422536;
     
 }
-
-
+.second-page {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+}
+.left {
+    height: 100%;
+    width: 65%;
+    background-color: #dfa4df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right {
+    width: 50%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+h2 {
+    line-height: 50px;
+    /* padding-bottom: 150px; */
+}
