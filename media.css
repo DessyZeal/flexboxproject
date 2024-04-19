@@ -149,20 +149,44 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 .third-page {
-    height: 550px;
+    height:400px;
+    /* background-color: #a8d2df; */
 }
-h2 {
+.text-1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }
-p {
+.text-2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: 25px;
+    color: #dfa4cf;
 }
 button {
+    margin-left: 650px;
+    margin-top: 15px;
+    padding: 15px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid #dfa4cf;
+    color: white;
+    background-color: #dfa4cf;
+}
+.gallery {
+    display: flex;
+    height: 50%;
+    flex-direction: row;
+}
+.service {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.products {
+    height: 520px;
+    width: 50%;
 }
