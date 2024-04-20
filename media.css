@@ -158,6 +158,13 @@ p {
     align-items: center;
     padding-top: 50px;
 }
+
+.text-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
 .text-2 {
     display: flex;
     justify-content: center;
