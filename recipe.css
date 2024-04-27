@@ -44,16 +44,44 @@ ul li span {
 }
 hr {
     margin: 1.5rem 0;
-    border: 1px solid rgb(36, 35, 35);
+    border: 1px solid rgb(112, 109, 109);
 }
 .container {
     max-width: 800px;
     background-color: #fff;
     margin: 2rem;
-    /* border-radius: 1rem; */
+    border-radius: 1rem;
 }
 .container .img-recipe {
     padding: 2rem;
     border-radius: 1rem;
-    
+    overflow: hidden;
+}
+.recipe-description {
+    padding-bottom: 1rem;
+}
+.container .img-recipe img {
+    border-radius: 1rem;
+}
+.recipe-info {
+    padding: 0rem 2rem 2rem 2rem;
+}
+.recipe-preptime {
+    background-color: rgb(247, 233, 235);
+    padding: 1.25rem;
+    border-radius: 1rem;
+}
+.recipe-preptime h3 {
+    color: brown;
+    padding-bottom: 0.74rem
+}
+.list-instructions {
+    padding-left: 1.25rem;
+}
+.list-instructions li {
+    padding-left: 0.5rem;
+    line-height: 1.5;
+}
+.list-instructions li span {
+    font-weight: 600;
 }
