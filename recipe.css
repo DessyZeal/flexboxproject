@@ -85,3 +85,41 @@ hr {
 .list-instructions li span {
     font-weight: 600;
 }
+.recipe-nutrition .values {
+    margin-bottom: 1rem;
+}
+.nutrition-table .item {
+    padding: 0.75rem 2rem;
+    display: flex;
+    border-bottom: 1px solid rgb(194, 184, 184);
+}
+.nutrition-table .item:last-child {
+    border-bottom: 0;
+}
+.nutrition-table .item .amt {
+    color: brown;
+    font-weight: 600;
+}
+.nutrition-table .item > *{
+    width: 100px;
+    margin: auto;
+}
+.nutrition-table .item p {
+    margin-left: 1.5rem;
+}
+
+@media (max-width: 540px) {
+    h1 {
+        margin-top: 2rem;
+    }
+    .container {
+        margin: 0;
+    }
+    .container .img-recipe {
+        padding: 0;
+        border-radius: 0;
+    }
+    .container .img-recipe img {
+        border-radius: 0;
+    }
+}
